@@ -14565,9 +14565,14 @@ ul li {
   .header__right h3 {
     font-family: 'DS-Stamper';
     text-transform: uppercase;
-    color: #f7c183;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: -webkit-linear-gradient(45deg, #fe9113, #f7c183);
+    background: -o-linear-gradient(45deg, #fe9113, #f7c183);
+    background: linear-gradient(45deg, #fe9113, #f7c183);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #fe9113;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s; }
@@ -14578,9 +14583,9 @@ ul li {
         margin-top: 10px; } }
     .header__left h3:hover,
     .header__right h3:hover {
-      background: -webkit-linear-gradient(45deg, #6e4617, #f7c183);
-      background: -o-linear-gradient(45deg, #6e4617, #f7c183);
-      background: linear-gradient(45deg, #6e4617, #f7c183);
+      background: -webkit-linear-gradient(45deg, #fe9113, #6e4617);
+      background: -o-linear-gradient(45deg, #fe9113, #6e4617);
+      background: linear-gradient(45deg, #fe9113, #6e4617);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   .header__left:hover,
