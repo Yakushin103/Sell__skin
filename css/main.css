@@ -14567,12 +14567,22 @@ ul li {
     text-transform: uppercase;
     color: #f7c183;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
     @media screen and (max-width: 768px) {
       .header__left h3,
       .header__right h3 {
         margin-bottom: 10px;
         margin-top: 10px; } }
+    .header__left h3:hover,
+    .header__right h3:hover {
+      background: -webkit-linear-gradient(45deg, #6e4617, #f7c183);
+      background: -o-linear-gradient(45deg, #6e4617, #f7c183);
+      background: linear-gradient(45deg, #6e4617, #f7c183);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
   .header__left:hover,
   .header__right:hover {
     opacity: 1; }
