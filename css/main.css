@@ -14658,13 +14658,18 @@ ul li {
   margin-bottom: 20px; }
 
 .work,
-.exclusive {
+.exclusive,
+.comment,
+.footer {
   width: 100%;
   padding-bottom: 50px;
   background: #f9dab7; }
 
 .work__title,
-.exclusive__title {
+.exclusive__title,
+.comment__title,
+.footer__title,
+.footer__end {
   background: #54638c;
   border: 2px solid #f7c183;
   width: 100%;
@@ -14733,3 +14738,72 @@ ul li {
 .exclusive__link-end .number {
   margin-right: 0;
   margin-left: 50px; }
+
+.comment__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto; }
+
+.comment__items {
+  width: 45%; }
+  .comment__items h4 {
+    color: #54638c; }
+  .comment__items img {
+    border: 2px solid #f7c183; }
+  .comment__items p {
+    font-size: 12px;
+    color: #54638c; }
+    @media screen and (max-width: 768px) {
+      .comment__items p {
+        font-size: 10px; } }
+
+.comment__items-text {
+  margin-top: 20px; }
+  @media screen and (max-width: 768px) {
+    .comment__items-text {
+      margin-top: 10px; } }
+  .comment__items-text p {
+    font-size: 16px;
+    color: #fe9113; }
+    @media screen and (max-width: 992px) {
+      .comment__items-text p {
+        font-size: 14px; } }
+    @media screen and (max-width: 768px) {
+      .comment__items-text p {
+        font-size: 12px; } }
+
+.footer {
+  padding-bottom: 0; }
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+
+.footer__end {
+  margin-top: 50px;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .footer__end a {
+    font-size: 12px;
+    color: #fe9113; }
