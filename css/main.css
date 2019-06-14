@@ -14529,7 +14529,7 @@ ul li {
   opacity: .9; }
 
 .header__main {
-  margin-top: 100px; }
+  margin-top: 50px; }
   @media screen and (max-width: 768px) {
     .header__main {
       margin-top: 20px; } }
@@ -14583,6 +14583,9 @@ ul li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 2px solid transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
     -o-border-image: -o-linear-gradient(45deg, #fe9113, #f7c183);
     border-image: linear-gradient(45deg, #fe9113, #f7c183);
     -moz-border-image: -moz-linear-gradient(45deg, #fe9113, #f7c183);
@@ -14687,6 +14690,9 @@ ul li {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 10px; }
+
+.btn {
+  width: 100%; }
 
 .work,
 .exclusive,
