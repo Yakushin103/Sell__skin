@@ -14583,9 +14583,8 @@ ul li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 2px solid transparent;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    -webkit-border-bottom: 2px solid transparent;
+    -moz-border-bottom: 2px solid transparent;
     -o-border-image: -o-linear-gradient(45deg, #fe9113, #f7c183);
     border-image: linear-gradient(45deg, #fe9113, #f7c183);
     -moz-border-image: -moz-linear-gradient(45deg, #fe9113, #f7c183);
