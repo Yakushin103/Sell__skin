@@ -14575,6 +14575,11 @@ ul li {
   .header__middle h5,
   .header__middle label {
     color: #1e3a87; }
+  .header__middle textarea {
+    width: 100%; }
+
+.right input {
+  color: #1e3a87; }
 
 .header__left,
 .header__right {
