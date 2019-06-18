@@ -14581,6 +14581,24 @@ ul li {
 .right input {
   color: #1e3a87; }
 
+.post__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 10px; }
+  .post__label input {
+    width: 80%; }
+    @media screen and (max-width: 480px) {
+      .post__label input {
+        width: 70%; } }
+
 .header__left,
 .header__right {
   width: 40%;
@@ -14707,9 +14725,6 @@ ul li {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 10px; }
-
-.modal-content {
-  z-index: 99999; }
 
 .work,
 .exclusive,
