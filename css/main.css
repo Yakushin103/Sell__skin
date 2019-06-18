@@ -14575,21 +14575,11 @@ ul li {
   .header__right h3 {
     font-family: 'DS-Stamper';
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
     background: -webkit-linear-gradient(45deg, #fe9113, #f7c183);
     background: -o-linear-gradient(45deg, #fe9113, #f7c183);
     background: linear-gradient(45deg, #fe9113, #f7c183);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 2px solid transparent;
-    -webkit-border-bottom: 2px solid transparent;
-    -moz-border-bottom: 2px solid transparent;
-    -o-border-image: -o-linear-gradient(45deg, #fe9113, #f7c183);
-    border-image: linear-gradient(45deg, #fe9113, #f7c183);
-    -moz-border-image: -moz-linear-gradient(45deg, #fe9113, #f7c183);
-    -webkit-border-image: -webkit-linear-gradient(45deg, #fe9113, #f7c183);
-    border-image-slice: 1;
+    border-radius: 20px;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s; }
