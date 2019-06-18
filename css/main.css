@@ -14578,7 +14578,8 @@ ul li {
   .header__middle textarea {
     width: 100%; }
 
-.right input {
+form input,
+form textarea {
   color: #1e3a87; }
 
 .post__label {
